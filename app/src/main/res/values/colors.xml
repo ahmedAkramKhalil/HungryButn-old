@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="text_white">#ffffff</color>
+    <color name="text_black">#000000</color>
+    <color name="scroll_gray">#59FFFFFF</color>
+
+    <color name="icon_enabled">#FFFFFFFF</color>
+    <color name="icon_disabled">#FF63727B</color>
+    <color name="colorPrimaryLight">#4f65e2</color>
+    <color name="price_color">#d53232</color>
+    <color name="colorTextUnfoucused">#171a1f</color>
+    <color name="colorTindicatorAlpha">#00000000</color>
+    <color name="medium_text_enabled">#FF000000</color>
+    <color name="medium_text_disabled">#4D000000</color>
+    <color name="transparent">#00F44336</color>
+    <color name="black">#FF000000</color>
+    <color name="black_20">#33000000</color>
+    <color name="background">#1b1b1b</color>
+<!--    <color name="background">#101011</color>-->
+    <color name="hp_yallow">#ffbf3e</color>
+    <color name="forground">#303030</color>
+    <color name="red">#d53232</color>
+    <color name="button_color_black">#202020</color>
+</resources>

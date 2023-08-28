@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:clipToPadding="false"
+    tools:context=".main.WhereEat">
+
+
+    <LinearLayout
+        android:id="@+id/in_tran"
+
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginBottom="128dp"
+        android:clipToPadding="false"
+        android:scrollbarFadeDuration="20"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/take_tran"
+
+        >
+
+        <LinearLayout
+            android:id="@+id/eat_in_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_back_test"
+            android:clickable="true"
+            android:clipToPadding="false"
+
+            android:elevation="30dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:foregroundGravity="center"
+                android:src="@drawable/eat_in_icon" />
+
+            <TextView
+                android:id="@+id/eat_in_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ar"
+                android:text="@string/eat_in"
+                android:textColor="@color/text_white"
+                android:textSize="30dp" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/take_tran"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="250dp"
+        android:clipToPadding="false"
+        android:scrollbarFadeDuration="20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+
+        >
+
+
+        <FrameLayout
+            android:id="@+id/take_away_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_back_test"
+            android:clickable="true"
+            android:clipToPadding="false"
+            android:elevation="30dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:foregroundGravity="center"
+                android:src="@drawable/takw_away_icon" />
+
+            <TextView
+                android:id="@+id/away_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:fontFamily="@font/ar"
+                android:gravity="bottom"
+                android:paddingBottom="22dp"
+                android:text="@string/take_away"
+                android:textColor="@color/text_white"
+                android:textSize="30dp" />
+
+
+        </FrameLayout>
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

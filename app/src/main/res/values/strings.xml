@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">HungryButn</string>
+    <string name="title_activity_choose_language">ChooseLanguage</string>
+    <string name="eat_in">Eat In</string>
+    <string name="take_away">Take Away</string>
+    <string name="hun_chef">Hun Chef</string>
+    <string name="menu">Menu</string>
+    <string name="browse_created_meal">Browse Created Meal</string>
+    <string name="choose_your">Choose your</string>
+
+
+    <string name="bun_tab_title">Bun</string>
+    <string name="meal_tab_title">Patty</string>
+    <string name="tomato_tab_title">Hot Ingredients</string>
+    <string name="egg_tab_title">Cold Ingredients</string>
+    <string name="sauce_tab_title">Sauces</string>
+    <string name="cooker_tab_title">Chef</string>
+    <string name="total_price">Total Price</string>
+    <string name="skip">Skip</string>
+    <string name="done">Next</string>
+    <string name="done_dialog">Next</string>
+
+
+    <string-array name="status">
+        <item>Confirmed</item>
+        <item>Dispatched</item>
+        <item>Arrived</item>
+        <item>Delivered</item>
+        <item>Reviewed</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="demo_tab_no_title">No Title</string>
+    <string name="demo_tab_like_a_medium_top">Top</string>
+    <string name="demo_tab_like_a_medium_latest">Latest</string>
+    <string name="done_print"><![CDATA[Done & Print]]></string>
+    <string name="cancel">Cancel</string>
+
+
+    <string name="app_name_ar">HungryButn</string>
+    <string name="title_activity_choose_language_ar">ChooseLanguage</string>
+    <string name="eat_in_ar">داخل المطعم</string>
+    <string name="take_away_ar">في الخارج</string>
+    <string name="hun_chef_ar">صانع الطعام</string>
+    <string name="menu_ar">Menu</string>
+    <string name="browse_created_meal_ar">تصفح الوجبات المنشأة مسبقا</string>
+
+    <string name="bun_tab_title_ar">الخبز</string>
+    <string name="meal_tab_title_ar">اللحم</string>
+    <string name="tomato_tab_title_ar">المكونات الساخنة</string>
+    <string name="egg_tab_title_ar">المكونات الباردة</string>
+    <string name="sauce_tab_title_ar">الصوص</string>
+    <string name="cooker_tab_title_ar">الطبخ</string>
+    <string name="total_price_ar">إجمالي السعر</string>
+    <string name="skip_ar">إلغاء</string>
+    <string name="done_ar">التالي</string>
+    <string name="next_ar">التالي</string>
+    <string name="choose_your_ar">قم باختيار</string>
+    <string name="cancel_confirmation">"Are you sure you want to Exit?"</string>
+    <string name="done_confirmation">"Have you finished creating the meal? "</string>
+    <string name="cancel_confirmation_ar">"أنت بجد عاوز تلغي الاوردر ؟"</string>
+    <string name="done_confirmation_ar">"متاكد انك مش عاوز حاجة تانية ؟"</string>
+    <string name="exit_ar">خروج</string>
+    <string name="cancel_ar">ألغاء</string>
+    <string name="sure_ar">متاكد</string>
+    <string name="no_ar">لا</string>
+    <string name="exit">Exit</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+
+
+</resources>

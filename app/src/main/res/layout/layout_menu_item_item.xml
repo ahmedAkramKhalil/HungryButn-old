@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:clickable="true"
+    android:elevation="10dp"
+    android:foreground="?attr/selectableItemBackground"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="560dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="75dp"
+        android:layout_weight="1"
+        android:background="@drawable/menu_item_item_back"
+
+        />
+
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:paddingRight="10dp"
+        android:src="@drawable/pizza" />
+
+
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+
+        android:layout_marginTop="300dp"
+        android:fontFamily="@font/ar"
+        android:gravity="center"
+        android:text="بيتزا خضار"
+        android:textAlignment="center"
+        android:textColor="@color/text_white"
+        android:textSize="48sp" />
+
+    <RatingBar
+        android:id="@+id/rating"
+        style="@android:style/Widget.Holo.RatingBar.Indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="390dp"
+        android:indeterminate="false"
+        android:isIndicator="true"
+        android:max="5"
+        android:maxWidth="120dp"
+        android:numStars="5"
+        android:progress="100"
+        android:progressTint="#FFBF3E"
+        android:scaleX="0.8"
+        android:scaleY="0.8" />
+
+    <TextView
+        android:id="@+id/item_des"
+        android:layout_width="304dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="450dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/ar"
+        android:gravity="center"
+        android:lineSpacingExtra="8sp"
+        android:maxWidth="250dp"
+
+        android:text="بيتزا الخضار بالنكهة الايطالية الأصلية "
+        android:textAlignment="center"
+        android:textColor="@color/text_white"
+        android:textSize="30sp" />
+
+
+    <Button
+        android:id="@+id/destailes_btn"
+        android:layout_width="133dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="560dp"
+
+        android:background="@drawable/chef_done_button_back"
+        android:fontFamily="@font/ar"
+        android:text="التفاصيل"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+
+</FrameLayout>

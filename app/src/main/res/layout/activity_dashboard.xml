@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main.Dashboard"
+    android:id="@+id/root_dashboard"
+    android:background="@color/background"
+    >
+
+
+    <com.skydoves.transformationlayout.TransformationLayout
+        android:id="@+id/start_trans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:clickable="true"
+        android:focusable="true"
+        android:foregroundGravity="clip_horizontal"
+        android:scrollbarFadeDuration="0"
+        app:layout_constraintBottom_toTopOf="@+id/start_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:transformation_duration="0"
+        app:transformation_fadeMode="through"
+        app:transformation_fitMode="auto"
+        app:transformation_pathMode="linear"
+        app:transformation_scrimColor="@color/transparent"
+        tools:ignore="MissingConstraints">
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/logo_trans"
+            android:layout_width="800dp"
+            android:layout_height="800dp"
+            android:layout_gravity="center|center_vertical"
+            android:background="#00FFFFFF"
+            android:cropToPadding="false"
+            android:gravity="clip_horizontal|center|center_horizontal"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/start_trans"
+            app:lottie_autoPlay="true"
+            app:lottie_enableMergePathsForKitKatAndAbove="true"
+            app:lottie_fileName="logo.json"
+            app:lottie_loop="true"
+            app:lottie_speed="1" />
+
+
+    </com.skydoves.transformationlayout.TransformationLayout>
+
+
+<!--    <com.airbnb.lottie.LottieAnimationView-->
+<!--        android:id="@+id/anim_view"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="200dp"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/start_trans"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:lottie_autoPlay="true"-->
+<!--        app:lottie_fileName="fav.json"-->
+<!--        app:lottie_loop="false"-->
+<!--        app:lottie_speed="1" />-->
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/start_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#00FFFFFF"
+        android:gravity="center"
+        android:paddingBottom="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_enableMergePathsForKitKatAndAbove="true"
+        app:lottie_fileName="letsgo.json"
+        app:lottie_loop="true"
+        app:lottie_speed="1"
+
+        />
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

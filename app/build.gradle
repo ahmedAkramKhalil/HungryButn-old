@@ -1,0 +1,53 @@
+apply plugin: 'com.android.application'
+apply plugin: 'realm-android'
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.wiz.hungrybutn"
+        minSdkVersion 21
+        targetSdkVersion 28
+        versionCode 2
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation "androidx.constraintlayout:constraintlayout:2.0.0-beta4"
+    implementation 'com.params.stepview:stepview:1.0.2'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation files('libs/printer_library.jar')
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
+    implementation 'com.ogaclejapan.smarttablayout:library:2.0.0@aar'
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+
+    //Optional: see how to use the utility.
+    implementation 'com.ogaclejapan.smarttablayout:utils-v4:2.0.0@aar'
+    implementation 'com.android.volley:volley:1.1.1'
+    implementation 'com.google.code.gson:gson:2.8.6'
+
+    implementation "com.mlsdev.animatedrv:library:2.0.0"
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'hanks.xyz:htextview-library:0.1.5'
+
+    implementation "com.hanks:htextview-base:0.1.2"        // base library
+
+    implementation "com.hanks:htextview-evaporate:0.1.2"   // optional
+    implementation "com.hanks:htextview-fall:0.1.2"        // optional
+    implementation "com.github.skydoves:transformationlayout:1.0.4"
+    implementation 'com.airbnb.android:lottie:3.4.1'
+
+}

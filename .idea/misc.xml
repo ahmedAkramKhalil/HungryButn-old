@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/add_min_button_back.xml" value="0.168" />
+        <entry key="app/src/main/res/layout/activity_chef.xml" value="0.3630705394190871" />
+        <entry key="app/src/main/res/layout/activity_dashboard.xml" value="0.470873786407767" />
+        <entry key="app/src/main/res/layout/activity_language_chooser.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/anim_item.xml" value="0.470873786407767" />
+        <entry key="app/src/main/res/layout/custom_tab_icon2.xml" value="0.2325" />
+        <entry key="app/src/main/res/layout/dialog_item.xml" value="0.4320388349514563" />
+        <entry key="app/src/main/res/layout/fragment_chef.xml" value="0.341626213592233" />
+        <entry key="app/src/main/res/layout/fragment_menu_item.xml" value="0.4320388349514563" />
+        <entry key="app/src/main/res/layout/invoice_item.xml" value="0.4320388349514563" />
+        <entry key="app/src/main/res/layout/layout_list_component.xml" value="0.4320388349514563" />
+        <entry key="app/src/main/res/layout/layout_list_item.xml" value="0.4320388349514563" />
+        <entry key="app/src/main/res/layout/layout_menu_item.xml" value="0.4320388349514563" />
+        <entry key="app/src/main/res/layout/menu_item_custom_tab.xml" value="0.4320388349514563" />
+        <entry key="app/src/main/res/layout/menu_item_tab_tag.xml" value="0.4320388349514563" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
